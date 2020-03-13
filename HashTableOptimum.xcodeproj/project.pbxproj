@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5E177F8721B7F9EA00705DD4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E177F8621B7F9EA00705DD4 /* main.cpp */; };
+		5EA0AAAE2212D8D500E37961 /* HashTableFT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EA0AAAC2212D8D500E37961 /* HashTableFT.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		5E177F8321B7F9E900705DD4 /* HashTableOptimum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HashTableOptimum; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E177F8621B7F9EA00705DD4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5EA0AAAC2212D8D500E37961 /* HashTableFT.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HashTableFT.cpp; sourceTree = "<group>"; };
+		5EA0AAAD2212D8D500E37961 /* HashTableFT.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HashTableFT.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				5E177F8621B7F9EA00705DD4 /* main.cpp */,
+				5EA0AAAC2212D8D500E37961 /* HashTableFT.cpp */,
+				5EA0AAAD2212D8D500E37961 /* HashTableFT.hpp */,
 			);
 			path = HashTableOptimum;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EA0AAAE2212D8D500E37961 /* HashTableFT.cpp in Sources */,
 				5E177F8721B7F9EA00705DD4 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,7 +137,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -190,7 +196,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
