@@ -42,7 +42,7 @@ template<class T> void HashTable<T>::check_ratio(){
 }
 
 template<class T> void HashTable<T>::rehash(){
-    vector<T> external = elements;
+    std::vector<T> external = elements;
     size = size * 2;
     elements.clear();
     elements.resize(size);

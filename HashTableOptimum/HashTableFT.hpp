@@ -13,19 +13,18 @@
 #include <vector>
 #include <string>
 
-using namespace std;
 
 template <class T>
 class HashTable{
 private:
     
-    vector<T> elements; //Угу
+    std::vector<T> elements; //Угу
     T null_element;
     T deleted_element;
     
     int_fast64_t inserted_elements; //Угу
     int_fast64_t size; //Угу
-    int_fast64_t (*g_hasher)(T element, int_fast64_t arr_size); //Угу
+    int_fast64_t (*g_hasher)(const T& element, int_fast64_t arr_size); //Угу
     
     void check_ratio(); //Угу
     bool T_comparator(T &element1, T &element2); //Угу
