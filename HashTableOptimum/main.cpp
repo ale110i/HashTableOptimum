@@ -1,3 +1,11 @@
+//
+//  HashTableFT.hpp
+//  HashTableOptimum
+//
+//  Created by Alexey Ischenko on 12/02/2019.
+//  Copyright © 2019 Enthropy. All rights reserved.
+//
+
 #include <stdio.h>
 #include <vector>
 #include <string>
